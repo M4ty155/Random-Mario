@@ -20,7 +20,6 @@ function onSubmit(e){
 function showList(wordArray){
     $list.innerHTML = ""
     for (let i = 0; i < wordArray.length; i++){
-        $list.innerHTML += `<p>${$word.value}</p>`
-        console.log(wordArray)
+        $list.innerHTML += `<p>${wordArray[i]}</p>`
     }
 }
